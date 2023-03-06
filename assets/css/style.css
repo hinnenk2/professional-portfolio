@@ -5,10 +5,10 @@
     box-sizing: border-box;
 }
 
-/* Establish CSS variables */
+/* Establish CSS color variables */
 :root {
   --header-footer: #82b4cf;
-  --grey: rgb(74, 99, 114);
+  --dark: rgb(18, 19, 20);
   --pink: rgb(213, 182, 182);
   --about-me-app-border: #c3588a;
   --border-color: rgba(13, 14, 13, 0.8);
@@ -46,10 +46,9 @@ header a {
   padding-right: 10px;
   padding-bottom: 5px;
   text-decoration: none;
-  border-bottom: 2px solid var(--grey);
-  color: var(--grey);
+  border-bottom: 2px solid var(--dark);
+  color: var(--dark);
 }
-
 /* End of header code */
 
 /* Start of body code */
@@ -70,12 +69,12 @@ body{
 /* Start of footer code */
 footer {
   background-color: var(--header-footer); 
-  color: var(--grey); /* Title color */
+  color: var(--dark); /* Title color */
 }
 
 footer a {
-  border-bottom: 2px solid var(--grey); /* Border bottom */
-  color: var(--grey); /* anchor text color */
+  border-bottom: 2px solid var(--dark); /* Border bottom */
+  color: var(--dark); /* anchor text color */
   font-size: 1.8vw; /* View port font-size to help with responsiveness */
   font-weight: bold;
 }
@@ -242,13 +241,37 @@ footer a {
     grid-row: 2;
 }
 
+@media screen and  (max-width: 575px) {
+  
+  header a {
+    font-size: 4vw;
+  }
+
+  p{
+    font-size:5vw;
+  }
+
+  footer a {
+    font-size: 3.5vw;
+  }
+}
+
 @media screen and (max-width: 768px) {
     header, footer {
       flex-direction: column;
     }
+
+    header a {
+      /* Allow screen changes with respect to the width of the viewport */
+      font-size: 3vw;
+    }
   
+    footer a {
+      font-size: 3vw;
+    }
+
     .app-item-project {
-        flex: 1 1 100%;
+        flex: 0 0 100%;
         max-width: 200%;
         flex-direction: column;
       }
