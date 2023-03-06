@@ -1,5 +1,5 @@
 # professional-portfolio
-This repository focuses on developing the URL for Ian Hinnenkamp's professional portfolio
+This repository focuses on storing, updating, and displaying Ian Hinnenkamp's professional portfolio
 
 1. [ Description. ](#desc)
 2. [ Web Address. ](#web-address)
@@ -8,7 +8,7 @@ This repository focuses on developing the URL for Ian Hinnenkamp's professional 
 <a name="desc"></a>
 ## 1. Description
 
-### This is the landing page for Ian Hinnenkamp's web portfolio.
+### This is the official site for Ian Hinnenkamp's professional portfolio.
 
 Desktop screen:
 
@@ -21,18 +21,19 @@ Smaller devices screen example:
 <a name="web-address"></a>
 ## 2. How to Get There
 
-### Open your favorite web browser and enter the following web address to access.
+### Open your preferred web browser and enter the following web address to access.
 
-```html
+```htmlhttps://hinnenk2.github.io/module-2-challenge/```
 
-https://hinnenk2.github.io/module-2-challenge/
-```
 <a name="usage"></a>
 ## 3. Usage Tips
 
-
-### Use the top right navigation panel to visit the different sections of the web page.
+### Use the top right navigation panel to visit the different applications presented on the web page.
 
 Desktop screen:
 
 ![nav-menu](./assets/images/nav-panel.png "Navigational Menu")
+
+Application Selection:
+
+![nav-menu](./assets/images/app-directory.png "Applications Directory")
