@@ -23,8 +23,9 @@ Smaller devices screen example:
 
 ### Open your preferred web browser and enter the following web address to access.
 
-```htmlhttps://hinnenk2.github.io/module-2-challenge/```
-
+```html
+https://hinnenk2.github.io/professional-portfolio/
+```
 <a name="usage"></a>
 ## 3. Usage Tips
 
